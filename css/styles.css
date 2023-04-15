@@ -1,12 +1,15 @@
-/** 
- * Treehouse FSJS Techdegree
- * Random Quote Generator - CSS
- */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 
- @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+:root {
+  --charcoal: #313e50ff;
+  --delft-blue: #3a435eff;
+  --charcoal-2: #455561ff;
+  --paynes-gray: #5c6672ff;
+  --slate-gray: #6c6f7fff;
+}
 
 body {
-  background-color: rgb(58, 193, 98);
+  background-color: var(--charcoal);
   color: white;
   font-family: 'Playfair Display', serif;
   padding: 5px;
